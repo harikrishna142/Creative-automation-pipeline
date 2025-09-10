@@ -3,12 +3,7 @@
 ## Overview
 This project implements a comprehensive creative automation pipeline for scalable social ad campaigns, designed to help global consumer goods companies rapidly generate and localize creative assets using AI-powered automation.
 
-## 🎯 Business Goals Addressed
-- **Accelerate Campaign Velocity**: Rapidly ideate, produce, approve, and launch more campaigns per month
-- **Ensure Brand Consistency**: Maintain global brand guidelines and voice across all markets and languages
-- **Maximize Relevance & Personalization**: Adapt messaging, offers, and creative to resonate with local cultures
-- **Optimize Marketing ROI**: Increase campaign efficiency and performance metrics
-- **Gain Actionable Insights**: Track effectiveness at scale and learn what drives best outcomes
+
 
 ## 🏗️ Project Structure
 ```
@@ -38,12 +33,7 @@ Adobe FDE/
 └── README.md              # This file
 ```
 
-## ✅ Tasks Completed
-- [x] **Task 1**: High-Level Architecture Diagram and Roadmap
-- [x] **Task 2**: Creative Automation Pipeline (Proof of Concept)
-- [x] **Task 3**: Agentic System Design & Stakeholder Communication
-- [x] **Bonus**: Google Veo 3 Integration for Advanced Video Generation
-- [x] **Bonus**: AWS S3 Storage Integration for Campaign Data and Assets
+
 
 ## 🚀 Quick Start
 
@@ -77,7 +67,7 @@ Adobe FDE/
 
 **Launch the modern web interface:**
 ```bash
-python launch_ui.py
+python streamlit run streamlit_app.py
 ```
 
 This opens a beautiful, Adobe-inspired web interface with:
@@ -106,14 +96,6 @@ The pipeline now includes **Google Veo 3** for advanced AI-powered video generat
    ```
 3. **Enable in UI**: Check "Use Google Veo 3" in the Campaign Builder
 
-### Veo 3 Features
-
-- **🎬 High-Quality Videos**: Professional, cinematic 8-second videos at 720p resolution
-- **🎨 Intelligent Composition**: Automatic shot selection and transitions
-- **🎵 Native Audio**: AI-generated dialogue, music, and sound effects
-- **📸 Image-to-Video**: Animate product images as starting frames
-- **🌍 Localization**: Content adapted for different languages and cultures
-- **⚡ Fast Generation**: 1-6 minutes generation time
 
 See [GOOGLE_VEO3_SETUP.md](GOOGLE_VEO3_SETUP.md) for detailed setup instructions.
 
@@ -134,9 +116,7 @@ See [GOOGLE_VEO3_SETUP.md](GOOGLE_VEO3_SETUP.md) for detailed setup instructions
    python src/pipeline/main.py analyze -o output
    ```
 
-### 🎯 Quick Demo
-```bash
-python demo.py
+
 ```
 
 ## 📋 Campaign Brief Format
@@ -169,144 +149,10 @@ The pipeline accepts campaign briefs in JSON or YAML format. Here's the structur
   }
 }
 ```
+s
 
-## 🎨 Adobe Creative Studio UI Features
 
-### 🏠 Dashboard
-- **Real-time Metrics**: Campaign count, creative generation, success rates
-- **Recent Campaigns**: Quick overview of latest campaigns
-- **Quick Actions**: Start generation, create new campaigns
-- **Pipeline Status**: Live monitoring of system health
 
-### 🎯 Campaign Builder
-- **Visual Form Interface**: Intuitive campaign creation
-- **Dynamic Product Management**: Add/remove products easily
-- **Brand Guidelines**: Color picker and style settings
-- **Aspect Ratio Selection**: Choose from 1:1, 9:16, 16:9
-- **Real-time Preview**: See campaign details as you build
-
-### 🖼️ Creative Gallery
-- **Campaign Browser**: Navigate through all campaigns
-- **Product Organization**: View creatives by product
-- **Aspect Ratio Grid**: See all format variations
-- **Download Manager**: One-click download of any creative
-- **Preview Cards**: Beautiful hover effects and styling
-
-### 📊 Analytics Dashboard
-- **Performance Charts**: Interactive Plotly visualizations
-- **Success Rate Trends**: Track pipeline performance over time
-- **Volume Metrics**: Campaign and creative generation stats
-- **Quality Scores**: Monitor creative quality trends
-- **Cost Analysis**: Track generation costs and efficiency
-
-### ⚙️ Settings & Configuration
-- **AI Configuration**: OpenAI API key and model settings
-- **Quality Thresholds**: Set minimum quality scores
-- **Brand Guidelines**: Default colors and fonts
-- **System Information**: Version and status details
-
-## 🎨 Generated Outputs
-
-The pipeline generates creatives organized by:
-- **Campaign ID** → **Product Name** → **Aspect Ratio**
-- **Quality scores** for each generated creative
-- **Generation metadata** and performance metrics
-- **Summary reports** with success rates and analytics
-
-### Supported Aspect Ratios
-- **1:1 (Square)**: Instagram posts, Facebook posts
-- **9:16 (Vertical)**: Instagram Stories, TikTok, YouTube Shorts
-- **16:9 (Horizontal)**: YouTube thumbnails, LinkedIn posts
-
-## 🤖 AI Features
-
-### Asset Generation
-- **OpenAI DALL-E Integration**: High-quality product image generation
-- **Fallback Systems**: Mock images and simple graphics when AI unavailable
-- **Smart Prompting**: Context-aware prompts based on product and campaign details
-
-### Quality Assurance
-- **Brand Compliance Checking**: Automated validation of brand guidelines
-- **Content Moderation**: Detection of prohibited words and inappropriate content
-- **Technical Quality**: Resolution, file size, and format validation
-- **Visual Quality**: Brightness, contrast, and clarity assessment
-
-### Monitoring & Alerts
-- **Real-time Monitoring**: Track pipeline health and performance
-- **Intelligent Alerts**: AI-powered anomaly detection and issue identification
-- **Stakeholder Communications**: Automated, context-aware notifications
-- **Performance Analytics**: Comprehensive metrics and trend analysis
-
-## 📊 Key Features
-
-### Creative Pipeline
-- ✅ **Multi-Product Support**: Handle campaigns with 2+ products
-- ✅ **Multi-Format Generation**: Create assets for all major social platforms
-- ✅ **Brand Consistency**: Automated brand guideline enforcement
-- ✅ **Quality Scoring**: Comprehensive quality assessment (0-1 scale)
-- ✅ **Localization Ready**: Framework for multi-language support
-
-### Monitoring & Communication
-- ✅ **AI-Driven Monitoring**: Intelligent pipeline health monitoring
-- ✅ **Stakeholder Alerts**: Context-aware communications for different audiences
-- ✅ **Performance Tracking**: Real-time metrics and trend analysis
-- ✅ **Incident Management**: Automated incident detection and reporting
-
-### Technical Excellence
-- ✅ **Modular Architecture**: Clean, extensible codebase
-- ✅ **Error Handling**: Robust error handling and fallback mechanisms
-- ✅ **Logging**: Comprehensive logging and debugging support
-- ✅ **Documentation**: Extensive documentation and examples
-
-## 🔧 Configuration
-
-### Pipeline Configuration
-```python
-config = {
-    "ai_config": {
-        "openai_api_key": "your_key_here",
-        "dalle_model": "dall-e-3",
-        "fallback_mode": True
-    },
-    "template_config": {
-        "default_font_size": 48,
-        "text_color": (255, 255, 255),
-        "brand_colors": {
-            "primary": (70, 130, 180),
-            "accent": (255, 215, 0)
-        }
-    },
-    "quality_config": {
-        "min_resolution": (800, 800),
-        "min_quality_score": 0.7,
-        "prohibited_words": ["free", "win", "prize"]
-    }
-}
-```
-
-## 📈 Performance Metrics
-
-The pipeline tracks and reports:
-- **Success Rate**: Percentage of successfully generated creatives
-- **Generation Time**: Average time per creative generation
-- **Quality Scores**: Average quality across all generated assets
-- **API Reliability**: Success rate of external AI service calls
-- **Resource Utilization**: System resource usage and efficiency
-
-## 🚨 Monitoring & Alerts
-
-### Alert Types
-- **Performance Degradation**: Success rate or speed issues
-- **API Failures**: External service connectivity problems
-- **Quality Threshold Breach**: Generated content below standards
-- **Resource Exhaustion**: System capacity issues
-- **Brand Compliance Issues**: Content not meeting brand guidelines
-
-### Stakeholder Communications
-- **Executive Leadership**: High-level business impact summaries
-- **Creative Teams**: Quality metrics and creative performance
-- **IT Teams**: Technical details and system health
-- **Client Communications**: Professional delay notifications and updates
 
 ## ☁️ AWS S3 Storage Integration
 
@@ -363,71 +209,8 @@ The Streamlit interface includes a dedicated S3 Management page with:
 - **Connection Testing**: Verify S3 connectivity and permissions
 - **URL Generation**: Create presigned URLs for secure sharing
 
-### Benefits of S3 Integration
-- **Scalability**: Handle large volumes of campaign data and assets
-- **Durability**: 99.999999999% (11 9's) durability for stored objects
-- **Accessibility**: Global access to campaign assets and creatives
-- **Cost Efficiency**: Pay only for storage used with lifecycle policies
-- **Integration**: Seamless integration with other AWS services
-- **Security**: Fine-grained access controls and encryption options
 
-## 🧪 Testing
 
-Run the example campaigns to test the pipeline:
-
-```bash
-# Generate example briefs
-python src/pipeline/main.py example
-
-# Test with tech campaign
-python src/pipeline/main.py generate -b examples/tech_campaign.json -v
-
-# Test with fashion campaign  
-python src/pipeline/main.py generate -b examples/fashion_campaign.yaml -v
-
-# Analyze results
-python src/pipeline/main.py analyze
-```
-
-## 📚 Documentation
-
-- **Architecture**: `docs/architecture/system_architecture.md`
-- **Roadmap**: `docs/presentations/roadmap.md`
-- **API Reference**: See docstrings in source code
-- **Examples**: `examples/` directory with sample campaigns
-
-## 🔮 Future Enhancements
-
-### Planned Features
-- **Video Generation**: Support for video creative assets
-- **Advanced Localization**: Multi-language text generation
-- **A/B Testing**: Automated creative variant testing
-- **Performance Optimization**: ML-based creative optimization
-- **Integration APIs**: RESTful APIs for external system integration
-
-### Scalability Improvements
-- **Cloud Deployment**: Kubernetes and container orchestration
-- **Microservices**: Service decomposition for better scalability
-- **Caching**: Redis-based caching for improved performance
-- **CDN Integration**: Global content delivery optimization
-
-## 🤝 Contributing
-
-This is a proof-of-concept implementation for the FDE take-home exercise. Key design decisions:
-
-1. **Modular Architecture**: Clean separation of concerns for maintainability
-2. **AI Integration**: Robust integration with external AI services
-3. **Quality Focus**: Comprehensive quality assurance and validation
-4. **Monitoring**: Intelligent monitoring and stakeholder communication
-5. **Extensibility**: Framework designed for future enhancements
-
-## 📞 Support
-
-For questions about this implementation:
-- Review the comprehensive documentation in `docs/`
-- Check example campaigns in `examples/`
-- Examine the source code for detailed implementation details
-- Run the pipeline with verbose logging (`-v` flag) for debugging
 
 ---
 
