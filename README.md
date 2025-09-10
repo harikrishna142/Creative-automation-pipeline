@@ -57,13 +57,13 @@ Adobe FDE/
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables (optional):**
+3. **Set up environment variables 
    ```bash
    # Create .env file
    echo "OPENAI_API_KEY=your_api_key_here" > .env
    ```
 
-### 🎨 Adobe Creative Studio UI (Recommended)
+### 🎨 Adobe Creative Studio UI 
 
 **Launch the modern web interface:**
 ```bash
@@ -79,9 +79,9 @@ This opens a beautiful, Adobe-inspired web interface with:
 
 The UI will open at: http://localhost:8501
 
-## 🤖 Google Veo 3 Integration
+##  Google Veo 3 Integration
 
-The pipeline now includes **Google Veo 3** for advanced AI-powered video generation:
+The pipeline  includes **Google Veo 3** for advanced AI-powered video generation But requires tier1  subscritpion for api:
 
 ### Setup Google Veo 3
 
@@ -97,27 +97,6 @@ The pipeline now includes **Google Veo 3** for advanced AI-powered video generat
 3. **Enable in UI**: Check "Use Google Veo 3" in the Campaign Builder
 
 
-See [GOOGLE_VEO3_SETUP.md](GOOGLE_VEO3_SETUP.md) for detailed setup instructions.
-
-### 💻 Command Line Usage
-
-1. **Generate example campaign briefs:**
-   ```bash
-   python src/pipeline/main.py example
-   ```
-
-2. **Run the pipeline with a campaign brief:**
-   ```bash
-   python src/pipeline/main.py generate -b examples/tech_campaign.json -o output
-   ```
-
-3. **Analyze generated results:**
-   ```bash
-   python src/pipeline/main.py analyze -o output
-   ```
-
-
-```
 
 ## 📋 Campaign Brief Format
 
@@ -214,4 +193,4 @@ The Streamlit interface includes a dedicated S3 Management page with:
 
 ---
 
-**Note**: This is a proof-of-concept implementation demonstrating technical approach, problem-solving capabilities, and integration of creative technologies for the FDE take-home exercise.
+**Acknowledgement**: This is a proof-of-concept implementation demonstrating FDE take-home exercise.
