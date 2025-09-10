@@ -35,7 +35,7 @@ Adobe FDE/
 
 
 
-##  Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
