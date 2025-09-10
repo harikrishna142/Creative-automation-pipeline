@@ -1,0 +1,38 @@
+{
+  "campaign_id": "campaign_20250908_132815",
+  "campaign_name": "Nike Summer Vibes Collection",
+  "products": [
+    {
+      "name": "Nike Sport Cap",
+      "description": "Adjustable lightweight cap with sweat-wicking technology for sports and casual wear",
+      "category": "Sports",
+      "price": 35.0,
+      "features": [
+        "Moisture-wicking fabric",
+        "Adjustable strap for custom fit",
+        "Embroidered Nike swoosh logo",
+        "Lightweight and breathable"
+      ],
+      "target_demographic": "Young athletes and lifestyle enthusiasts aged 16-30"
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "Fitness enthusiasts, athletes, and lifestyle consumers seeking performance and style",
+  "campaign_message": "Stay cool, stay fast \u2014 Nike Summer Vibes 2025",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  },
+  "content_type": "Video Only",
+  "video_format": "YouTube Shorts",
+  "video_duration": 15,
+  "include_music": true,
+  "include_voice_over": true
+}

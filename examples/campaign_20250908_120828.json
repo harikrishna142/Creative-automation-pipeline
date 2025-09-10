@@ -1,0 +1,33 @@
+{
+  "campaign_id": "campaign_20250908_120828",
+  "campaign_name": "Nike Summer Vibes Collection",
+  "products": [
+    {
+      "name": "Nike AirFlex Running Shoes",
+      "description": "Lightweight, breathable running shoes designed for all-day comfort and peak performance",
+      "category": "Sports",
+      "price": 120.0,
+      "features": [
+        "\"Breathable mesh upper\"",
+        "Responsive foam cushioning",
+        "Durable rubber outsole",
+        "Lightweight design"
+      ],
+      "target_demographic": "Active men and women aged 18-35 who enjoy running and fitness"
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "Fitness enthusiasts, athletes, and lifestyle consumers seeking performance and style",
+  "campaign_message": "Stay cool, stay fast \u2014 Nike Summer Vibes 2025",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  }
+}

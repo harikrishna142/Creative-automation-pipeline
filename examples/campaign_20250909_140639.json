@@ -1,0 +1,50 @@
+{
+  "campaign_id": "campaign_20250909_140639",
+  "campaign_name": "Adidas Time to Move Campaign",
+  "products": [
+    {
+      "name": "Adidas FitPulse Smartwatch",
+      "description": "Lightweight fitness smartwatch with heart rate tracking, GPS, and workout coachin",
+      "category": "Sports",
+      "price": 200.0,
+      "features": [
+        "Built-in GPS",
+        "Heart rate and sleep monitoring\"",
+        "\"Water resistant up to 50m",
+        "Customizable sport modes",
+        "Long battery life (7 days)"
+      ],
+      "target_demographic": "Active men and women aged 18-40 who run, train, and care about health data"
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "Urban professionals and fitness enthusiasts looking for performance and style in their accessorie",
+  "campaign_message": "Own Every Second \u2014 Performance Meets Style",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  },
+  "content_type": "Image Only",
+  "video_format": null,
+  "video_duration": null,
+  "include_music": false,
+  "include_voice_over": false,
+  "use_veo3": false,
+  "veo3_quality": null,
+  "asset_params": {
+    "brand": "Adidas",
+    "persona": "Athletes",
+    "custom_prompt": "Create instagram post for marketing adidas watch",
+    "use_brand_logo": true,
+    "use_avatar": true,
+    "use_background": true,
+    "use_theme": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "campaign_id": "tech_launch_2024",
+  "campaign_name": "Tech Product Launch Campaign",
+  "products": [
+    {
+      "name": "SmartPhone Pro",
+      "description": "Latest flagship smartphone with advanced camera system",
+      "category": "Electronics",
+      "price": 999.99,
+      "features": [
+        "5G connectivity",
+        "Triple camera system",
+        "All-day battery"
+      ],
+      "target_demographic": "Tech enthusiasts aged 25-45"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "description": "Premium wireless earbuds with noise cancellation",
+      "category": "Audio",
+      "price": 199.99,
+      "features": [
+        "Active noise cancellation",
+        "30-hour battery",
+        "Water resistant"
+      ],
+      "target_demographic": "Music lovers and professionals"
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "Tech-savvy consumers aged 25-45 with disposable income",
+  "campaign_message": "Experience the future of technology today",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#4682B4",
+    "secondary_color": "#FFFFFF",
+    "accent_color": "#FFD700",
+    "font_family": "Arial"
+  }
+}

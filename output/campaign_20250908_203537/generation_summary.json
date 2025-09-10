@@ -1,0 +1,10 @@
+{
+  "total_expected": 3,
+  "total_generated": 0,
+  "success_rate": 0.0,
+  "errors": [
+    "Error generating video for Nike AirFlex Running Shoes: 1 validation error for GeneratedVideo\ngeneration_time\n  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='2025-09-08T20:36:41.956324', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/float_parsing"
+  ],
+  "generation_time": "2025-09-08T20:36:41.962696",
+  "campaign_id": "campaign_20250908_203537"
+}

@@ -1,0 +1,34 @@
+aspect_ratios:
+- '1:1'
+- '9:16'
+- '16:9'
+brand_guidelines:
+  accent_color: '#FFD700'
+  font_family: Arial
+  primary_color: '#4682B4'
+  secondary_color: '#FFFFFF'
+campaign_id: tech_launch_2024
+campaign_message: Experience the future of technology today
+campaign_name: Tech Product Launch Campaign
+language: en
+products:
+- category: Electronics
+  description: Latest flagship smartphone with advanced camera system
+  features:
+  - 5G connectivity
+  - Triple camera system
+  - All-day battery
+  name: SmartPhone Pro
+  price: 999.99
+  target_demographic: Tech enthusiasts aged 25-45
+- category: Audio
+  description: Premium wireless earbuds with noise cancellation
+  features:
+  - Active noise cancellation
+  - 30-hour battery
+  - Water resistant
+  name: Wireless Earbuds
+  price: 199.99
+  target_demographic: Music lovers and professionals
+target_audience: Tech-savvy consumers aged 25-45 with disposable income
+target_region: North America

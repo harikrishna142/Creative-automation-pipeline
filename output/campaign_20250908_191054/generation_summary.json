@@ -1,0 +1,10 @@
+{
+  "total_expected": 3,
+  "total_generated": 3,
+  "success_rate": 1.0,
+  "errors": [
+    "Error generating video for Stay cool, stay fast \u2014 Nike Summer Vibes 2025: VideoGenerator.generate_video_ad() got an unexpected keyword argument 'product_images'"
+  ],
+  "generation_time": "2025-09-08T19:12:17.094648",
+  "campaign_id": "campaign_20250908_191054"
+}

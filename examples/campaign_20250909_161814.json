@@ -1,0 +1,46 @@
+{
+  "campaign_id": "campaign_20250909_161814",
+  "campaign_name": "Adidas Time to Move Campaign",
+  "products": [
+    {
+      "name": "Adidas Urban Classic Watch",
+      "description": "Minimalist analog lifestyle watch with stainless steel finish and Adidas branding",
+      "category": "Fashion",
+      "price": 100.0,
+      "features": [
+        "Stainless steel case",
+        "Water resistant up to 30m",
+        "Interchangeable straps"
+      ],
+      "target_demographic": "Style-conscious young professionals aged 20-35 seeking sporty elegance"
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "Urban professionals and fitness enthusiasts looking for performance and style in their accessories",
+  "campaign_message": "Own Every Second \u2014 Performance Meets Style",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  },
+  "content_type": "Image Only",
+  "video_format": null,
+  "video_duration": null,
+  "include_music": false,
+  "include_voice_over": false,
+  "use_veo3": false,
+  "veo3_quality": null,
+  "asset_params": {
+    "brand": "Adidas",
+    "persona": null,
+    "custom_prompt": null,
+    "selected_brand_logo": "output\\assets\\brand_logo\\adidas.png",
+    "selected_avatar": "output\\assets\\avatar\\dddd.jpg"
+  }
+}

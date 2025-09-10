@@ -1,0 +1,41 @@
+{
+  "campaign_id": "campaign_20250909_004346",
+  "campaign_name": "Coca-Cola Summer Refresh Campaign",
+  "products": [
+    {
+      "name": "Coca-Cola Classic Can",
+      "description": "Chilled 330ml Coca-Cola Classic can with iconic red branding",
+      "category": "Food & Beverage",
+      "price": 5.0,
+      "features": [
+        "\"Refreshing taste\"",
+        "\"World-famous Coca-Cola branding\"",
+        "\"Perfect for summer moments\"",
+        "\"330ml portable size\""
+      ],
+      "target_demographic": "Young adults aged 18-30 enjoying social summer activitie"
+    }
+  ],
+  "target_region": "Latin America",
+  "target_audience": "Social, fun-loving, and health-conscious consumers seeking refreshing drinks during summer activities",
+  "campaign_message": "Taste the Feeling of Summer",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "es",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  },
+  "content_type": "Image Only",
+  "video_format": null,
+  "video_duration": null,
+  "include_music": false,
+  "include_voice_over": false,
+  "use_veo3": false,
+  "veo3_quality": null,
+  "selected_assets": []
+}

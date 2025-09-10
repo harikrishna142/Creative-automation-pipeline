@@ -1,0 +1,44 @@
+{
+  "campaign_id": "campaign_20250910_065212",
+  "campaign_name": "Adidas Summer Vibes Collection",
+  "products": [
+    {
+      "name": "sports cap",
+      "description": "adjustable lightweight cap with sweat-wicking technology for sports and casual wear",
+      "category": "Fashion",
+      "price": 20.0,
+      "features": [
+        "Moisture-wicking fabric"
+      ],
+      "target_demographic": "Young athletes and lifestyle enthusiasts aged 16-30"
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "lifestyle consumers seeking performance and style",
+  "campaign_message": "stay cool, stay fast \u2014 Adidas Summer Vibes 2025",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  },
+  "content_type": "Image Only",
+  "video_format": null,
+  "video_duration": null,
+  "include_music": false,
+  "include_voice_over": false,
+  "use_veo3": false,
+  "veo3_quality": null,
+  "asset_params": {
+    "brand": "Adidas",
+    "persona": null,
+    "custom_prompt": null,
+    "selected_brand_logo": "output\\assets\\brand_logo\\adidas.png",
+    "selected_avatar": "output\\assets\\avatar\\photo.jpg"
+  }
+}

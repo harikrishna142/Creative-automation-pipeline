@@ -1,0 +1,19 @@
+{
+  "campaign_id": "campaign_20250908_112439",
+  "campaign_name": "Nike Summer Vibes Collection",
+  "products": [],
+  "target_region": "Latin America",
+  "target_audience": "Fitness enthusiasts, athletes, and lifestyle consumers seeking performance and style",
+  "campaign_message": "Stay cool, stay fast \u2014 Nike Summer Vibes 2025",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  }
+}

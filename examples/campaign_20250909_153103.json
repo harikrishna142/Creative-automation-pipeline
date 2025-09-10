@@ -1,0 +1,46 @@
+{
+  "campaign_id": "campaign_20250909_153103",
+  "campaign_name": "Adidas FitPulse Smartwatch",
+  "products": [
+    {
+      "name": "Adidas FitPulse Smartwatch",
+      "description": "Lightweight fitness smartwatch with heart rate tracking, GPS, and workout coaching",
+      "category": "Fashion",
+      "price": 40.0,
+      "features": [
+        "Built-in GPS",
+        "Heart rate and sleep monitoring",
+        "Water resistant up to 50m"
+      ],
+      "target_demographic": "Style-conscious young professionals aged 20-35 seeking sporty elegance"
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "Urban professionals and fitness enthusiasts looking for performance and style in their accessorie",
+  "campaign_message": "Own Every Second \u2014 Performance Meets Style",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#667eea",
+    "secondary_color": "#ffffff",
+    "accent_color": "#ffd700"
+  },
+  "content_type": "Image Only",
+  "video_format": null,
+  "video_duration": null,
+  "include_music": false,
+  "include_voice_over": false,
+  "use_veo3": false,
+  "veo3_quality": null,
+  "asset_params": {
+    "brand": "Adidas",
+    "persona": null,
+    "custom_prompt": null,
+    "selected_brand_logo": "output\\assets\\brand_logo\\adidas.png",
+    "selected_avatar": "output\\assets\\avatar\\dddd.jpg"
+  }
+}

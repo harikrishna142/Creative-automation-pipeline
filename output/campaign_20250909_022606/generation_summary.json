@@ -1,0 +1,12 @@
+{
+  "total_expected": 3,
+  "total_generated": 0,
+  "success_rate": 0.0,
+  "errors": [
+    "Error generating variation 1 for Nike Sport Cap: CreativePipeline._get_or_generate_base_image() missing 1 required positional argument: 'aspect_ratio'",
+    "Error generating variation 2 for Nike Sport Cap: CreativePipeline._get_or_generate_base_image() missing 1 required positional argument: 'aspect_ratio'",
+    "Error generating variation 3 for Nike Sport Cap: CreativePipeline._get_or_generate_base_image() missing 1 required positional argument: 'aspect_ratio'"
+  ],
+  "generation_time": "2025-09-09T02:26:08.336341",
+  "campaign_id": "campaign_20250909_022606"
+}

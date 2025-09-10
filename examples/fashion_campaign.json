@@ -1,0 +1,45 @@
+{
+  "campaign_id": "fashion_spring_2024",
+  "campaign_name": "Spring Fashion Collection",
+  "products": [
+    {
+      "name": "Designer Handbag",
+      "description": "Luxury leather handbag with modern design",
+      "category": "Fashion",
+      "price": 450.0,
+      "features": [
+        "Genuine leather",
+        "Multiple compartments",
+        "Adjustable strap"
+      ],
+      "target_demographic": "Fashion-conscious women aged 25-40"
+    },
+    {
+      "name": "Premium Watch",
+      "description": "Elegant timepiece with Swiss movement",
+      "category": "Accessories",
+      "price": 750.0,
+      "features": [
+        "Swiss movement",
+        "Sapphire crystal",
+        "Water resistant"
+      ],
+      "target_demographic": "Professionals and watch enthusiasts"
+    }
+  ],
+  "target_region": "Europe",
+  "target_audience": "Fashion-conscious consumers with high purchasing power",
+  "campaign_message": "Elevate your style with timeless elegance",
+  "aspect_ratios": [
+    "1:1",
+    "9:16",
+    "16:9"
+  ],
+  "language": "en",
+  "brand_guidelines": {
+    "primary_color": "#2C3E50",
+    "secondary_color": "#ECF0F1",
+    "accent_color": "#E74C3C",
+    "font_family": "Helvetica"
+  }
+}
