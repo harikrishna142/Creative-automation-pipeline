@@ -5,7 +5,7 @@ This project implements a comprehensive creative automation pipeline for scalabl
 
 
 
-## 🏗️ Project Structure
+##  Project Structure
 ```
 Adobe FDE/
 ├── docs/                    # Documentation and presentations
@@ -35,7 +35,7 @@ Adobe FDE/
 
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -63,7 +63,7 @@ Adobe FDE/
    echo "OPENAI_API_KEY=your_api_key_here" > .env
    ```
 
-### 🎨 Adobe Creative Studio UI 
+###  Adobe Creative Studio UI 
 
 **Launch the modern web interface:**
 ```bash
@@ -98,7 +98,7 @@ The pipeline  includes **Google Veo 3** for advanced AI-powered video generation
 
 
 
-## 📋 Campaign Brief Format
+##  Campaign Brief Format
 
 The pipeline accepts campaign briefs in JSON or YAML format. Here's the structure:
 
@@ -133,7 +133,7 @@ s
 
 
 
-## ☁️ AWS S3 Storage Integration
+## ☁ AWS S3 Storage Integration
 
 The pipeline includes comprehensive AWS S3 storage integration for scalable cloud storage of campaign data, assets, and generated creatives.
 
