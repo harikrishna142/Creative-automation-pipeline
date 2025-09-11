@@ -54,6 +54,7 @@ class CampaignBrief(BaseModel):
     )
     language: str = Field(default="en", description="Campaign language")
     additional_requirements: Optional[Dict[str, Any]] = Field(None, description="Additional campaign requirements")
+    asset_params: Optional[Dict[str, Any]] = Field(None, description="Asset parameters including selected logos, avatars, and generation settings")
     
     # Video-specific fields
     content_type: ContentType = Field(default=ContentType.IMAGE, description="Type of content to generate")
