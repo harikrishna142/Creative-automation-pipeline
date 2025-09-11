@@ -675,6 +675,7 @@ def show_campaign_builder():
                     aspect_ratios=aspect_ratios,
                     language=campaign["language"],
                     brand_guidelines=campaign["brand_guidelines"],
+                    asset_params=campaign.get("asset_params", {}),
                     content_type=content_type,
                     video_format=video_format,
                     video_duration=campaign["video_duration"],
