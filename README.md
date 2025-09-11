@@ -67,7 +67,7 @@ Adobe FDE/
 
 **Launch the modern web interface:**
 ```bash
-python streamlit run streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
 This opens a beautiful, Adobe-inspired web interface with:
